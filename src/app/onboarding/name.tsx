@@ -54,6 +54,7 @@ export default function OnboardingNameScreen() {
                 placeholder="Enter Your Name"
                 placeholderTextColor="#6B7280"
                 autoCapitalize="words"
+                autoFocus
                 autoCorrect={false}
                 returnKeyType="done"
                 onSubmitEditing={handleSubmit}
